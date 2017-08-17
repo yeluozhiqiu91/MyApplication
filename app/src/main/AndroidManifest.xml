@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".chapter4.LifeOfActivity">
+        <activity android:name=".chapter5.ReturnHomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,6 +22,13 @@
         </activity>
         <activity android:name=".chapter4.SecondActivity">
         </activity>
+        <activity android:name=".FrameLayoutActivity">
+            <intent-filter>
+                <action android:name="org.wang.intent.crazy_action"/>
+                <!--<category android:name="org.wang.intent.crazy_category"/>-->
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
-
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
 </manifest>
