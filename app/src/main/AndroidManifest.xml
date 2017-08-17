@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".chapter4.TwoReturnResultActivityTest">
+        <activity android:name=".chapter4.LifeOfActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,6 +19,8 @@
         <activity android:name=".chapter4.ResultActivity">
         </activity>
         <activity android:name=".chapter4.SelectCityActivity">
+        </activity>
+        <activity android:name=".chapter4.SecondActivity">
         </activity>
     </application>
 
