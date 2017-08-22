@@ -7,4 +7,14 @@
     <string name="btn5">按钮5</string>
     <string name="btn6">按钮6</string>
     <string name="btn7">按钮7</string>
+    <string name="color">颜色</string>
+    <string name="color_red">红色</string>
+    <string name="color_green">绿色</string>
+    <string name="color_blue">蓝色</string>
+    <string name="width">粗细</string>
+    <string name="width_1">宽度1</string>
+    <string name="width_3">宽度3</string>
+    <string name="width_5">宽度5</string>
+    <string name="blur">blur</string>
+    <string name="emboss">emboss</string>
 </resources>
